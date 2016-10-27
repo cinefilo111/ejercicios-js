@@ -8,9 +8,11 @@ Cuando hayas hecho funcionar lo anterior, modifica tu codigo para que imprima ‚Ä
 
 Algunas cosas que te pueden ayudar, es recordar el operador de modulo (%).
 
+======================================
 CECATI 116
 Cd. Reynosa Tam., a 26 de oct. de 2016
 Juan Jos√© Palacios Ochoa
+======================================
 */
 
 for (var i = 1; i <= 100; i++) {
@@ -33,4 +35,28 @@ for (var i = 1; i <= 100; i++) {
 		console.log(i);
 	}
 
+}
+
+
+var expresion = true;
+for (var j=1; j<=100; j++){
+  
+  switch (expresion) {
+
+  	case ((j % 3 == 0 && j % 5 == 0)):
+  		console.log(j, "Fizz Buzz FizzBuzz");
+  		break;
+
+  	case ((j % 3 == 0)):
+  		console.log(j, "Fizz");
+  		break;
+
+  	case ((j % 5 == 0)):
+  		console.log(j, "Buzz");
+  		break;
+
+  	default:
+  		console.log(j);  	
+  }
+ 
 }

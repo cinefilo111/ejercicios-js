@@ -32,3 +32,11 @@ cadena = "#############"
 for (var i = 1; i <=7 ; i++){
 	console.log(cadena.substring(0,i), "\n");
 }
+
+
+var cadena1 = "       ";
+var cadena2 = "#######";
+var m = 7;
+for (var k=1; k<=7; k++){
+	console.log( cadena1.substring(0,m-k) + cadena2.substring(0,k));
+}
